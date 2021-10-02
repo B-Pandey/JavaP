@@ -1,0 +1,98 @@
+ /*
+
+
+        System.out.println("Get : " + m.get(105));
+        System.out.println("Removed: " + m.remove(105));
+        System.out.println(m.get(105));
+
+        System.out.println(m.containsKey(101));
+        System.out.println(m.containsKey(102));
+
+        System.out.println(m.containsValue("Tye"));
+        System.out.println(m.containsValue("Mary"));
+
+        System.out.println("Retruns T/F" + m.isEmpty()); // T/F
+        System.out.println("Return size" + m.size()); //Size
+        System.out.println("Return only key" + m.keySet()); //Only key
+        System.out.println("Return only Values" + m.values()); // Only values
+        System.out.println("Return all key and values" + m.entrySet()); // all key value
+
+        for (int i : m.keySet()) {
+            System.out.println(i);
+        }
+        for (Object i : m.values()) {
+            System.out.println(i);
+        }
+
+        for (Object i : m.keySet()) {
+            System.out.println(i + "  " + m.get(i));
+        }
+//Entry Methods
+        System.out.println("Printing from Entry Methods");
+        for (Map.Entry entry : m.entrySet()) {
+            System.out.println(entry.getKey() + "  " + entry.getValue());
+        }
+        Set s = m.entrySet();
+        Iterator itr = s.iterator();
+        System.out.println("Printing from Iterator");
+        while (itr.hasNext()) {
+            Map.Entry entry = (Map.Entry) itr.next();
+            System.out.println(entry.getKey() + "  " + (entry.getValue()));
+        }
+
+    }*/
+
+/*
+        HashMap<Integer, String> m = new HashMap();
+        m.put(106, "John");
+        m.put(102, "David");
+        m.put(103, "Scott");
+        m.put(104, "Mary");
+        m.put(105, "Tye");
+        m.put(103, "John"); //replace with new value
+
+        System.out.println(m);
+
+        System.out.println("Get : " + m.get(105));
+        System.out.println("Removed: " + m.remove(105));
+        System.out.println(m.get(105));
+
+        System.out.println(m.containsKey(101));
+        System.out.println(m.containsKey(102));
+
+        System.out.println(m.containsValue("Tye"));
+        System.out.println(m.containsValue("Mary"));
+
+        System.out.println("Retruns T/F" + m.isEmpty()); // T/F
+        System.out.println("Return size" + m.size()); //Size
+        System.out.println("Return only key" + m.keySet()); //Only key
+        System.out.println("Return only Values" + m.values()); // Only values
+        System.out.println("Return all key and values" + m.entrySet()); // all key value
+
+        for (int i : m.keySet()) {
+            System.out.println(i);
+        }
+        for (Object i : m.values()) {
+            System.out.println(i);
+        }
+
+    for(Object i : m.keySet()){
+        System.out.println(i + "  " + m.get(i));
+    }
+//Entry Methods
+        System.out.println("Printing from Entry Methods");
+        for(Map.Entry entry: m.entrySet()){
+            System.out.println(entry.getKey() + "  " + entry.getValue());
+        }
+    Set s = m.entrySet();
+    Iterator itr = s.iterator();
+        System.out.println("Printing from Iterator");
+        while(itr.hasNext()){
+        Map.Entry  entry = (Map.Entry) itr.next();
+            System.out.println(entry.getKey() + "  "+ (entry.getValue()));
+        }
+
+    }
+}
+
+ */
